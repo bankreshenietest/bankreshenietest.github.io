@@ -6,6 +6,7 @@
     <title>Платить удобнее с Банком Решение | Подключение Apple Pay </title>
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" type="image/x-icon" href="./public/favicon.png">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@700&display=swap"
@@ -277,15 +278,15 @@
   <div class="tabs">
     <div class="tab-item active">
       <i class="tab-icon fas fa-code"></i>
-      IPhone
+      <p class="blockname">IPhone</p>
     </div>
     <div class="tab-item">
       <i class="tab-icon fas fa-cog"></i>
-      Apple Watch
+      <p class="blockname">Apple Watch</p>
     </div>
     <div class="tab-item">
       <i class="tab-icon fas fa-plus-circle"></i>
-      IPad, MacBook Pro
+      <p class="blockname">IPad<br>MacBook Pro</p>
     </div>
     <div class="line"></div>
   </div>
@@ -293,7 +294,7 @@
   <!-- Tab content -->
   <div class="tab-content">
     <div class="tab-pane active">
-      <h2>IPhone</h2>
+      <h2 class="tab-head">IPhone</h2>
       
  <div class="about__container container grid">
                 <img src="./public/iphone-mockup-about.png" alt="" class="about__img">
@@ -301,8 +302,8 @@
                 <div class="about__data">
                   <div class="about__info">
                         <div>
-                            <p class="about__info-title"> <font size="5" face="Inter">В приложении «Банк Решение»‎</font></p>
-                            <span class="about__info-name"><font size="4" face="Inter">Откройте приложение, выберите карточку и нажмите «Добавить в Apple Wallet».</font></span>
+                            <p class="about__info-title"> <font class="maininfo" size="5" face="Inter">В приложении «Банк Решение»‎</font></p>
+                            <span class="about__info-name"><font class="dopinfo" size="4" face="Inter">Откройте приложение, выберите карточку и нажмите «Добавить в Apple Wallet».</font></span>
                         </div>
                   </div>
                 </div>
@@ -314,8 +315,8 @@
                 <div class="about__data">
                   <div class="about__info">
                         <div>
-                            <p class="about__info-title"> <font size="5" face="Inter">В приложении Wallet</font></p>
-                            <span class="about__info-name"><font size="4" face="Inter">Откройте приложение, нажмите кнопку добавления «+» и добавьте карту, следуя инструкциями на экране.‎</font></span>
+                            <p class="about__info-title"> <font class="maininfo" size="5" face="Inter">В приложении Wallet</font></p>
+                            <span class="about__info-name"><font size="4" class="dopinfo" face="Inter">Откройте приложение, нажмите кнопку добавления «+» и добавьте карту, следуя инструкциями на экране.‎</font></span>
 
                         </div>
                   </div>
@@ -327,7 +328,7 @@
 
     </div>
     <div class="tab-pane">
-      <h2>Apple Watch</h2>
+      <h2 class="tab-head">Apple Watch</h2>
 
       
  <div class="about__container container grid">
@@ -336,13 +337,13 @@
                 <div class="about__data">
                   <div class="about__info">
                         <div>
-                            <p class="about__info-title"> <font size="4" face="Inter">1. Откройте приложение Apple Watch на связанном устройстве iPhone. </font></p>
-                            <p class="about__info-title"> <font size="4" face="Inter">2. Перейдите на вкладку «Мои часы» и нажмите «Wallet и Apple Pay». </font></p>
-                            <p class="about__info-title"> <font size="4" face="Inter">3. Нажмите «Добавить карту».</font></p>
-                            <span class="about__info-name"><font size="4" face="Inter">•  Нажмите «Дебетовая карта» или «Кредитная карта», чтобы добавить новую карту.</font></span>
-                            <span class="about__info-name"><font size="4" face="Inter">•  Нажмите «Ранее добавленные карты», чтобы добавить карту, которую вы использовали ранее.</font></span>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">1. Откройте приложение Apple Watch на связанном устройстве iPhone. </font></p>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">2. Перейдите на вкладку «Мои часы» и нажмите «Wallet и Apple Pay». </font></p>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">3. Нажмите «Добавить карту».</font></p>
+                            <span class="about__info-name"><font class="maininfo" size="4" face="Inter">•  Нажмите «Дебетовая карта» или «Кредитная карта», чтобы добавить новую карту.</font></span>
+                            <span class="about__info-name"><font class="maininfo" size="4" face="Inter">•  Нажмите «Ранее добавленные карты», чтобы добавить карту, которую вы использовали ранее.</font></span>
                             <p class="about__info-title"> <font size="4" face="Inter">4.  Коснитесь «Продолжить». </font></p>
-                            <p class="about__info-title"> <font size="4" face="Inter">5. Добавьте карту, следуя указаниям на экране</font></p>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">5. Добавьте карту, следуя указаниям на экране</font></p>
                         </div>
                   </div>
                 </div>
@@ -354,7 +355,7 @@
     
     </div>
     <div class="tab-pane">
-      <h2>IPad, MacBook Pro</h2>
+      <h2 class="tab-head">IPad, MacBook Pro</h2>
 
 
        <div class="about__container container grid">
@@ -363,11 +364,11 @@
                 <div class="about__data">
                   <div class="about__info">
                         <div>
-                            <p class="about__info-title"> <font size="4" face="Inter">1. На своем устройстве откройте настройки «Wallet и Apple Pay».</font></p>
-                             <span class="about__info-name"><font size="4" face="Inter">•  На модели Mac с Touch ID, перейдите в меню «Системные настройки» > «Wallet и Apple Pay».</font></span>
-                            <span class="about__info-name"><font size="4" face="Inter">•  На iPad или Vision Pro перейдите в меню «Настройки» > «Wallet и Apple Pay».</font></span>
-                            <p class="about__info-title"> <font size="4" face="Inter">2.  Выберите «Добавить карту».</font></p>
-                            <p class="about__info-title"> <font size="4" face="Inter">3. Добавьте карту, следуя указаниям на экране.</font></p>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">1. На своем устройстве откройте настройки «Wallet и Apple Pay».</font></p>
+                             <span class="about__info-name"><font class="maininfo" size="4" face="Inter">•  На модели Mac с Touch ID, перейдите в меню «Системные настройки» > «Wallet и Apple Pay».</font></span>
+                            <span class="about__info-name"><font class="maininfo" size="4" face="Inter">•  На iPad или Vision Pro перейдите в меню «Настройки» > «Wallet и Apple Pay».</font></span>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">2.  Выберите «Добавить карту».</font></p>
+                            <p class="about__info-title"> <font class="maininfo" size="4" face="Inter">3. Добавьте карту, следуя указаниям на экране.</font></p>
                            
                            
                         </div>
@@ -401,7 +402,7 @@
       <section class="payment-methods-frame" id="join">
         <div class="mobile-app-store-badge-frame">
           <h1 class="heading8">
-            Начни пользоваться Apple Pay уже сегодня вместе с Банком «‎Решение»
+            Начни пользоваться Apple Pay уже сегодня<br>вместе с Банком «‎Решение»
           </h1>
           <div class="group-frame">
             <a href="https://apps.apple.com/us/app/%D0%B1%D0%B0%D0%BD%D0%BA-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5/id1169048080?l=ru&ls=1"><img

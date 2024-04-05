@@ -218,8 +218,9 @@
   display: inline-block;
 }
 .heading {
-  margin: 0;
+  
   width: 592px;
+  max-width: 100%;
   font-size: 50px;
   letter-spacing: -0.02em;
   line-height: 65px;
@@ -2473,6 +2474,9 @@
     font-size: var(--display-lg-semibold-size);
     line-height: 58px;
   }
+  .tab-head{
+    opacity: 0;
+  }
   .heading1 {
     font-size: var(--font-size-10xl);
     line-height: 35px;
@@ -2521,7 +2525,7 @@
     line-height: 35px;
   }
   .image1 {
-    min-height: auto;
+    min-height: 250px;
   }
   .content5,
   .payment-methods-frame {
@@ -2531,6 +2535,28 @@
 @media screen and (max-width: 750px) {
   .frame-group-header {
     gap: 48px 0;
+  }
+  .maininfo{
+    font-size: 4vw;
+  }
+  .dopinfo{
+    font-size: 2.5vw;
+  }
+  .about__container{
+    margin-top: 6rem;
+    max-width: 600px;
+  }
+  .navigation{
+    font-size: 13px;
+  }
+  .mockup-shadow-icon{
+    width: 70%;
+  }
+  .button-base6{
+    opacity: 0;
+  }
+  .button5{
+    opacity: 0;
   }
   .content {
     min-width: 100%;
@@ -2608,18 +2634,44 @@
   .landing-page {
     gap: 96px 0;
   }
+  
+  
+  
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 510px) {
   .supporting-text {
     gap: 0 40px;
   }
+  .tabs{
+    display: inline-block;
+    margin-left: 40px; 
+  }
+  .tab-item{
+    margin-left: 20px;
+  }
+  .blockname{
+    font-size: 14px;
+  }
+
+.about__img {
+    width: 120px;
+    
+
+
+}
   .heading {
-    font-size: var(--display-md-semibold-size);
-    line-height: 43px;
+    font-size: var(--text-sm-semibold-size);
+    line-height: 30px;
+  }
+  .mockup-shadow-icon{
+    opacity: 0;
   }
   .supporting-text1 {
     font-size: var(--text-md-normal-size);
     line-height: 24px;
+  }
+  .navigation{
+    opacity: 0;
   }
   .heading-rectangle {
     gap: 72px 0;
@@ -2636,10 +2688,17 @@
     gap: 48px 0;
   }
   .heading2 {
-    font-size: var(--text-lg-semibold-size);
+    opacity: 0;
   }
   .supporting-text3 {
     margin-left: 0;
+  }
+  .supporting-text4 {
+    opacity: 0;
+  }
+  .supporting-text5,
+  .supporting-text6{
+    width: 80%;
   }
   .container-parent {
     padding-top: var(--padding-12xl);
@@ -2696,8 +2755,9 @@
     line-height: 24px;
   }
   .heading8 {
-    font-size: var(--font-size-10xl);
+    font-size: 7vw;
     line-height: 36px;
+    width: 70%;
   }
   .quote {
     font-size: var(--text-lg-semibold-size);
@@ -2760,7 +2820,7 @@
 .tab-item {
   min-width: 80px;
   padding: 16px 20px 11px 20px;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   color: #000000;
   background-color: #fff;
@@ -2772,8 +2832,8 @@
   transition: all 0.5s ease;
 }
 .tab-icon {
-  font-size: 24px;
-  width: 32px;
+  font-size: 17px;
+  width: 24px;
   position: relative;
   top: 2px;
 }
@@ -2802,10 +2862,9 @@
 
 
 .about__img {
-    width: 360px;
+    width: 30%;
     margin-top: -3.2em;
-    justify-self: center;
-    align-self: center;
+
 
 }
 
